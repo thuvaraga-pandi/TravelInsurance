@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestFunction.TravelInsuranceStudent">
+        <methods>
+          <include name="TravelInsuranceStudent1"/>
+          <include name="PolicyBazaarInsurance"/>
+          <include name="MainCarInsurance"/>
+          <include name="closeBrowser"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- TestFunction.TravelInsuranceStudent -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
